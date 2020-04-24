@@ -31,17 +31,26 @@ void mostrarVetor(int* vet, int n){
 
 }
 
-void liberarVetor(int* vet, int n){
-    int i;
+void liberarVetor(int* vet){
 
-    for(; n > 0 ; n--){
-        free(*vet + n);
-    }
+    free(vet);
 
 }
 
 
 
+
 main(){
+    int *vet = criarVetor(10);
+    int i;
+
+    for(i = 0 ; i < 10 ; i++){
+        printf("Digite um numero: ");
+        scanf("%d", vet + i);
+    }
+
+    mostrarVetor(vet,10);
+
+    liberarVetor(vet);
 
 }
