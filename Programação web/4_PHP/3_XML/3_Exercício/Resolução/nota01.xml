@@ -1,0 +1,8 @@
+<nota>
+	<id>1</id>
+	<valor>12</valor>
+	<operacao>Venda</operacao>
+	<fornecedor>Casa dos Retalhos</fornecedor>
+	<produto>Camiseta média</produto>
+	<quantidade>4</quantidade>
+</nota>

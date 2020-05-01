@@ -1,0 +1,35 @@
+[
+	{
+		"id": 1,
+		"nome": "Friends",
+		"temporadas": 15,
+		"produtora": "hbo"
+	},
+
+	{
+		"id": 2,
+		"nome": "How I met your mother",
+		"temporadas": 7,
+		"produtora": "Nbc"
+	},
+
+	{
+		"id": 3,
+		"nome": "The witcher",
+		"temporadas": 1,
+		"produtora": "netflix"
+	},
+
+	{
+		"id": 4,
+		"nome": "Unidade 42",
+		"temporadas": 1,
+		"produtora": "netflix"
+	},
+	{
+		"id": 1,
+		"nome": "Friends",
+		"temporadas": 15,
+		"produtora": "hbo"
+	}
+]
