@@ -22,6 +22,28 @@ utilizando a função ultimo_nome, verifica se essas duas pessoas têm o mesmo sobr
 Em caso positivo, a função deve retornar uma nova cadeia alocada dinamicamente com esse sobrenome. Em qualquer outro caso,
 a função deve retornar uma cadeia vazia. Havendo problema de alocação de memória, a função deve retornar NULL.
 
+
+Para simplificar ainda mais, sempre que possível utilize as funções da biblioteca string.h:
+
+int strlen (char* s);
+int strcmp (char* s, char *t);
+har* strcpy (char* destino, char* fonte);
+char* strncpy (char* destino, char* fonte, int n);
+char* strcat (char* destino, char* fonte);
+
+Exemplos de nomes:
+
+
+Para “STEVEN PAUL JOBS” e “JOSE JOBS”, retorna “JOBS”;
+Para “JOSE JOBS” e “CHICO ANYSIO”, retorna cadeia vazia “”;
+Para “SILVA” e “SILVA”, retorna “SILVA”;
+Para “” e “”, retorna cadeia vazia “”;
+
+Em seguida, crie a função principal do programa e utilize a função verificaSobrenome
+para verificar se os sobrenomes de dois nomes informados pelo usuário são iguais ou não.
+Use os exemplos acima para testar o seu programa.
+
+
 */
 
 #include<string.h>
