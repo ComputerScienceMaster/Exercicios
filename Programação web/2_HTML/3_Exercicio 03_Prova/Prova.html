@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prova da 9º série</title>
+</head>
+<body>
+
+	<h1>9º Série A - Prova de Conhecimentos Gerais</h1>
+
+	<article>Responda todas as questões, utilize rascunhos em papel para realizar os cálculos. Os rascunhos serão recolhidos pela professora após a quarentena.</article>
+
+	<br>
+
+	<fieldset>
+		<legend>Informações do aluno</legend>
+		<input type="text" name="" placeholder="Digite o seu nome">
+		<br><br>
+
+		<input type="number" name="" placeholder="Nº de pessoas no grupo">
+		<br><br>
+		<input type="email" name="" placeholder="Digite o seu email">
+		<br><br>
+		<label for="dtaNascimento">Data de nascimento</label><br>
+		<input type="date" id="dtaNascimento" name="dtaNascimento" placeholder="Insira sua data de nascimento">
+		<br>
+		<br>
+		<label for="senha">Digite uma senha para acessar os dados da pesquisa posteriormente:</label><br>
+		<input type="password" name="" placeholder="Digite uma senha">
+	</fieldset>
+
+	<fieldset>
+		<legend>Matemática</legend>
+
+		<img src="matematica.jpg" width="300">
+		<br>
+		<label for="resultado1">3 + 3 = </label>
+		<input type="number" name="resultado1" >
+		<br><br>
+		<label for="resultado2">10 / 3 = </label>
+		<input type="number" name="resultado2" >
+		<br><br>
+		<label for="resultado3">5 * 2 = </label>
+		<input type="number" name="resultado3" >
+		<br><br>
+		<label for="resultado4"> Essa tarefa foi difícil? </label>
+		<input type="range" name="resultado4" >
+
+	</fieldset>
+
+	<fieldset>
+		<legend>Opinião quanto a utilização</legend>
+
+		<img src="https://concursospublicoabertos.com.br/wp-content/uploads/2019/11/como-estudar-portugues-para-concurso-publico-740x375.jpg" width="300" width="300"> <br>
+		<label>Na frase: "Eu sou bonito" o sujeito é</label><br>
+
+		<input type="radio" id="gostomuito" name="gostomuito" value="Gosto muito">  
+		<label>Brad pitt</label><br>
+		<input type="radio" id="gosto" name="gostomuito" value="Gosto muito">  
+		<label>João da padaria</label><br>
+		<input type="radio" id="naosei" name="gostomuito" value="Gosto muito">  
+		<label>Você mesmo</label><br>
+		<input type="radio" id="naogosto" name="gostomuito" value="Gosto muito">  
+		<label>Meus pais</label><br>
+		<input type="radio" id="odeio" name="gostomuito" value="Gosto muito">  
+		<label>Eu</label>
+
+		<br><br>
+
+		<label>Complete a frase: "Filho de peixe, peixinho ___"</label><br>
+
+		<input type="checkbox" id="fixação" name="caracteristica" value="fixação">
+		<label for="fixação"> é</label><br>
+		<input type="checkbox" id="projecao" name="caracteristica" value="projecao">
+		<label for="projecao"> tem</label><br>
+		<input type="checkbox" id="cheiro" name="caracteristica" value="cheiro">
+		<label for="textura"> verde</label><br>
+		<input type="checkbox" id="cor" name="caracteristica" value="cor">
+		<label for="cor"> bonito</label><br>
+		<input type="checkbox" id="embalagem" name="caracteristica" value="embalagem">
+		<label for="embalagem"> maria</label><br>
+	</fieldset>
+
+	<fieldset>
+		<legend>Dê uma nota para sua professora:</legend>
+
+		<label>Sua professora explica bem a matéria?</label><br>
+		<input type="range" min="1" max="100" value="50" class="SatisfacaoGeral" id="SatisfacaoGeral">
+		<br><br>
+	</fieldset>
+
+
+	<fieldset>
+		<legend>Opiniões</legend>
+
+		<label>Digite a sua opinião sobre a disciplina</label><br>
+		<textarea rows="7" cols="80"></textarea>
+		<br><br>
+	</fieldset>
+
+	<br><br>
+	<input type="submit" name="submit" value="Gravar respostas">
+	<br><br>
+</body>
+</html>
