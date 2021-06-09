@@ -2,22 +2,16 @@
 
 $acompanhamentos = ['CSM fritas', 'CSM nuggs', 'CSM Fluri' ];
 $acompanhamentosURL = [
-	'https://villasembalagens.com.br/wp-content/uploads/2018/06/fritas.jpg', 
-	'https://melepimenta.com/wp-content/uploads/2019/01/Nuggets-frango-caseiros-Baixa-5-1024x683.jpg' , 
-	'https://www.saborama.com.br/wp-content/uploads/2017/10/economize-fazendo-sorvete.jpg'];
+	'<place your images here>', '<place your images here>', '<place your images here>'];
 
 
 
 	$refrigerantes = ['Coca-Coca', 'Fantos', 'Guaraney'];
-	$refrigerantesURL = ['https://static8.depositphotos.com/1020618/980/i/600/depositphotos_9805108-stock-photo-glass-of-cola.jpg',
-	'https://image.freepik.com/fotos-gratis/copo-de-refrigerante-de-laranja-com-gelo-isolado-no-fundo-branco_55716-175.jpg', 
-	'https://www.cini.com.br/wp-content/uploads/2018/11/Guaran%C3%A1-e-Abacaxi.png'];
+	$refrigerantesURL = ['<place your images here>', '<place your images here>', '<place your images here>'];
 
 
 	$lanches = ["BigLack", "CSM gostoso", 'CSM chicken'];
-	$lanchesURL = ['https://d25dk4h1q4vl9b.cloudfront.net/media/images/menu-content/BR/sanduiches-de-carne/bigmac_v2.png',
-	'https://d25dk4h1q4vl9b.cloudfront.net/media/images/menu-content/BR/sanduiches-de-carne/tasty_new.png', 
-	'https://s2.glbimg.com/tSulmEejYpXitwIIFB2izDSchXM=/0x0:469x329/984x0/smart/filters:strip_icc()/s.glbimg.com/po/rc/media/2014/05/07/20_24_57_27_McFran_a_1.jpg'];
+	$lanchesURL = ['<place your images here>', '<place your images here>', '<place your images here>'];
 
 
 
