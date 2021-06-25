@@ -13,9 +13,11 @@ Nesse repositório você encontrará diversos exercícios criados com fins exclu
 - Programação Web
 
 
-Os exercícios estão reunidos em nosso website na aba "exercícios". Acesse aqui:
+Os exercícios que estão presentes nesse repositório foram postados em nosso website. Esse repositório tem a função de agregar todos eles em um único lugar e armazenar o código e itens de resposta. Para acessar o enunciado desses exercícios, acesse:
 
 https://www.computersciencemaster.com.br/exercicios/
+
+As pastas acima estão organizadas na mesma sequência do website e você pode contribuir com suas soluções os exercícios ou então correções de códigos que não estão funcionando. Fique à vontade para usar e compartilhar essa iniciativa.
 
 
 # Como contribuir?
