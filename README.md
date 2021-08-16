@@ -24,9 +24,15 @@ As pastas acima estão organizadas na mesma sequência do website e você pode c
 
 Os exercícios postados no website também ficam armazenados aqui no Github. Nós mantemos nossa organização assim porque desejamos manter esse repositório livre para a comunidade. Além disso, muitas vezes um problema possui diversas soluções possíveis e quanto mais diversificamos esses exemplos mais completo nosso repositório fica. Portanto, nosso objetivo aqui é fornecer um conjunto de exercícios de alta qualidade para todos que desejam praticar conceitos aprendidos durante uma faculdade ou qualquer curso de computação. Sua contribuição esse repositório é muito bem-vinda, para isso, faça um fork em nosso repositório, resolva do seu jeito os exercícios seguindo um alto padrão de didática e depois faça um pull request. 
 
-# TODO e Issues
+## TODO e Issues
 
-Utilize a seção de Issues desse repositório para tirar dúvidas e também apontar problemas nos exercícios.
+Lista de exercícios que precisam de contribuições:
+- Implementar o sistema para livrarias descrito no website → [Clique para acessar o exercício](https://www.computersciencemaster.com.br/exercicios-software-livrarias/).
+- Resolver os exercícios de Eletrônica digital → [Clique para acessar o exercício](https://www.computersciencemaster.com.br/exercicios-aritmetica-binaria/)
+- Criar uma forma de separar artigos usando PLN → [Clique para acessar o exercício](https://www.computersciencemaster.com.br/exercicios-separacao-de-grupos-de-artigos-usando-pln/)
+- Implementar os exercícios de lógica de programação (vale qualquer linguagem, preferência por C, C++, C#, Java) → [Clique para acessar a seção de exercícios](https://www.computersciencemaster.com.br/exercicios-de-logica-de-programacao/).
+
+Selecione um TODO acima ou então faça suas contribuições livremente. Crie uma Issue nesse repositório para documentar suas contribuições e também trocar ideias com a comunidade.
 
 # Licença 
 
