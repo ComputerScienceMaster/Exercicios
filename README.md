@@ -36,9 +36,13 @@ Selecione um TODO acima ou então faça suas contribuições livremente. Crie um
 
 # Licença 
 
-Todos esses exercícios estão sob a licença Creative Commons Attribution-ShareAlike 4.0 International License. Isso significa que você pode compartilhar, remixar, etc. Porém, é necessário que você faça uma atribuição (link) para nosso website.
+Todos os exercícios e conteúdo disponibilizado no site estão sob a licença Creative Commons Attribution-ShareAlike 4.0 International License. 
 
-Saiba mais sobre essa licença aqui:
+Isso significa que você pode compartilhar, remixar, etc. Porém, é necessário que você faça uma atribuição (link) para nosso website. [Saiba mais sobre essa licença aqui](
+https://creativecommons.org/licenses/by-sa/4.0/)
 
-https://creativecommons.org/licenses/by-sa/4.0/
+O código está distribuido sob a licença Apache 2.0.
+
+
+
 
