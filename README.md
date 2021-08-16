@@ -22,9 +22,9 @@ As pastas acima estão organizadas na mesma sequência do website e você pode c
 
 # Como contribuir?
 
-Os exercícios postados no website e também presentes aqui no github, muitas vezes possuem diversas soluções possíveis e quanto mais diversificamos esses exemplos mais completo nosso repositório fica. Meu objetivo aqui é fornecer uma base para vários estudantes da área resolver os exercícios e também disponibilizar suas soluções aqui. Portanto, caso você queira contribuir com esse repositório, selecione um exercício, resolva do seu jeito e depois faça um pull. 
+Os exercícios postados no website também ficam armazenados aqui no Github. Nós mantemos nossa organização assim porque desejamos manter esse repositório livre para a comunidade. Além disso, muitas vezes um problema possui diversas soluções possíveis e quanto mais diversificamos esses exemplos mais completo nosso repositório fica. Portanto, nosso objetivo aqui é fornecer um conjunto de exercícios de alta qualidade para todos que desejam praticar conceitos aprendidos durante uma faculdade ou qualquer curso de computação. Sua contribuição esse repositório é muito bem-vinda, para isso, faça um fork em nosso repositório, resolva do seu jeito os exercícios seguindo um alto padrão de didática e depois faça um pull request. 
 
-# Issues
+# TODO e Issues
 
 Utilize a seção de Issues desse repositório para tirar dúvidas e também apontar problemas nos exercícios.
 
