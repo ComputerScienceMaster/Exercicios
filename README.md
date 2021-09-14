@@ -36,11 +36,9 @@ Selecione um TODO acima ou então faça suas contribuições livremente. Crie um
 
 # Licença 
 
-Todos os exercícios e conteúdo disponibilizado no site estão sob a licença Creative Commons Attribution-ShareAlike 4.0 International License. Isso significa que você pode compartilhar, remixar, etc. Porém, é necessário que você faça uma atribuição (link) para nosso website. [Saiba mais sobre essa licença aqui](
-https://creativecommons.org/licenses/by-sa/4.0/)
+Todos os exercícios e conteúdo disponibilizado no site estão sob a licença Creative Commons Attribution-ShareAlike 4.0 International License. Isso significa que você pode compartilhar, remixar, etc. Porém, é necessário que você faça uma atribuição (link) para nosso website. 
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-O código está distribuido sob a licença Apache 2.0. Isso significa que você pode reutilizar esse código, aprender com ele, adaptá-lo e também redistribuí-lo, mas fique atento, você precisa adicionar uma referência ao nosso repositório ou então ao nosso website. [Saiba mais sobre essa licença aqui](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
-
-
+O código está distribuido sob a licença Apache 2.0. Isso significa que você pode reutilizar esse código, aprender com ele, adaptá-lo e também redistribuí-lo, mas fique atento, você precisa adicionar uma referência ao nosso repositório ou então ao nosso website. [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
