@@ -1,24 +1,17 @@
 #include <stdio.h>
 /*
 
-7)Escreva uma função chamada troca que troca os valores dos parâmetros recebidos.
-Sua assinatura deve ser:void troca(float *a, float *b);
+7) Qual o resultado d o código abaixo? Explique cada linha.
 
 */
 
-void troca(float *a, float *b){
-    float aux = 0;
-    aux = *a;
-    *a = *b;
-    *b = aux;
-}
 
+main (){
 
-void main (){
-    float a = 5, b = 3;
-    troca(&a, &b);
-    printf("a : %f - b: %f", a , b );
+   int x = 100; // declaração de x e atribuição do valor 100;
+   int *p ,**pp; //declaração de duas variáveis, ponteiro de inteiro. Também outro ponteiro de ponteiro de inteiro.
+   p = &x; // ponteiro p recebe endereço de x;
+   pp = &p; // ponteiro de ponteiro de inteiro pp recebe o endereço de p
+   printf("Valor de pp: %d\n", **pp); // agora imprimimos o valor de pp desreferenciado
 
 }
-
-

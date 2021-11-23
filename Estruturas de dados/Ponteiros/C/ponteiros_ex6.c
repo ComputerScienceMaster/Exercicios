@@ -1,28 +1,32 @@
+#include <stdio.h>
 /*
 
-(sem usar o computador) Qual o conteúdo do vetor a depois dos seguintescomandos.
+6)Crie uma função que receba uma string como parâmetro (de tamanhodesconhecido) e retorne uma cópia da mesma.
+A assinatura da função deveser:char *strcopy(char *str, int tamanho);
 
 */
 
-void imprimir(int a[]){
+char* strcpy(char *str , int tamanho){
     int i;
-
-    for (i = 0 ; i < 99 ; i++ ){
-            printf("% - d - ", a[i]);
+    char* r = malloc (tamanho * sizeof(char));
+    for (i = 0 ; ; i++){
+        *(r + i) = *(str + i);
+        if(*(str + i) == '\o'){
+            break;
+        }
     }
+    //printf("[%c]", *r);
+    return r;
 }
 
 
 void main (){
-    int i, a[99];
+    char nome[9] ={'v','i','n','i','c','i','u','s','\o'};
 
-    for (i = 0; i < 99; ++i)
-        a[i] = 98 - i;
+    char* copia = strcpy(nome,9);
 
-    for (i = 0; i < 99; ++i)
-        a[i] = a[a[i]];
+    printf("string: %s", copia);
 
-    imprimir(a);
 }
 
 
