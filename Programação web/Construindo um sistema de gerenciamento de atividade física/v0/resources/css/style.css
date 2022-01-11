@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    align-items: center;
+}
+
+.header-title {
+    display: flex;
+    font-size: 50px;
+    font-family: Oswald;
+    text-align: center;
+}
+
+.header-links {
+    display: flex;
+    font-size: 1.2em;
+}
+
+.header-links a {
+    display: flex;
+    padding: 1em;
+}
+
+.navbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkblue;
+    text-align: center;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 40;
+}
+
+.form {
+    background-color: #E7D2CC;
+
+    padding: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-form {
+    padding: 10px;
+}
+
+.cartinha {
+    background-color: rgb(60, 70, 102);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartinha a {
+    color: white;
+    font-size: 10px;
+}
+
+.cartinha h2 {
+    font-weight: bold;
+}
+
+.cartinha img {
+
+    width: 500px;
+}
+
+.titulo {
+    margin-top: 1px;
+    padding: 30px;
+    font-size: 2em;
+    display: flex;
+    background-color: rgb(238, 238, 104);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.texto-banner {
+    display: flex;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+    text-align: justify;
+    gap:30px;
+}
+
+.texto-banner p {
+    margin-top: 10px;
+}
+
+.imagem-banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imagem-banner a{
+    margin: 5px;
+    color: black;
+    font-size: 10px;
+}
+
+.imagem-banner img {
+    border: solid 5px #efefef;
+    width: 400px;
+}
+
+.ranking {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.podio {
+    display: flex;
+}
+
+.prata {
+    display: flex;
+    background-color: silver;
+    padding: 100;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.bronze {
+    display: flex;
+    background-color: #CD7F32;
+    padding: 100;
+    margin-top: 40;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.ouro {
+    display: flex;
+    background-color: yellow;
+    padding: 100;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.workoutCards {
+    background-color: #E7D2CC;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.corbanner {
+    background-color: #B9B7BD;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    gap:50px;
+}
+
+.corranking {
+    background-color: #EEEDE7;
+    display: flex;
+    flex-direction: column;
+    padding:50px;
+    align-items: center;
+}
+
+body {
+    font-family: Arial;
+}
+
+
+/* Style the tab */
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    display: flex;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+.card-exercicio {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffefa8;
+    border-radius: 5px;
+    margin:30px;
+    padding:20px;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-text h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-text button{
+    background-color: black;
+    padding:10px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+}
+
+.minhaEstrela {
+    font-size: 50px;
+}
+
+.treinos{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: 189AB4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.treinosAntigos {
+    float: left;
+}
+
+.fontTreinoAntigo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.caixaHP {
+    background-color: #dfdf10;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}

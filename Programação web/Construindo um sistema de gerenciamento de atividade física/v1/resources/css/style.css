@@ -1,0 +1,575 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+/* Quebras (media-queries) */
+
+/* CSS geral */
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #4a7b9d;
+  flex-wrap: wrap;
+}
+.header-title {
+  font-size: 50px;
+  font-family: Righteous;
+  text-align: center;
+  color: #faffd8;
+}
+
+.header-links {
+  text-decoration: none;
+  display: flex;
+  font-size: 1.2em;
+}
+
+.header-links a {
+  display: flex;
+  background-color: #ecffb0;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(141, 130, 130);
+  padding: 1em;
+  text-decoration: none;
+  color: #54577c;
+}
+
+.navbar {
+  display: flex;
+  background-color: #54577c;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.navbar a {
+  color: white;
+  font-size: 25px;
+  font-family: Oswald;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.login-section,
+.register-section {
+  background-color: #9aa899;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  padding: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.form input {
+  padding: 10px;
+}
+
+.form .button {
+  background-color: #faffd8;
+  color: white;
+  padding: 10px;
+  color: #333;
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.input-form {
+  margin: 1.5em;
+}
+
+.cartinha {
+  background-color: #54577c;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  font-family: Josefin Sans;
+  color: #efefef;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cartinha img {
+  border-radius: 10px;
+  height: 200px;
+  padding: 20px;
+}
+
+.cartinha h2 {
+  font-size: 20px;
+}
+
+.cartinha p {
+  margin-top: 10px;
+  font-family: ARial;
+}
+
+.cartinha a{
+  color: white;
+  font-size: 10px;
+}
+
+.titulo {
+  display: flex;
+  font-size: 2em;
+  padding: 30px;
+  font-family: Oswald;
+  font-weight: 100;
+  background-color: #faffd8;
+  border-top: solid 1px #333;
+  border-bottom: solid 1px #333;
+}
+
+.corbanner {
+  background-color: #9aa899;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  gap: 50px;
+}
+
+.texto-banner {
+  font-family: Josefin Sans;
+  font-size: 20px;
+}
+
+.texto-banner p {
+  padding: 10px;
+}
+
+.imagem-banner {
+  display: flex;
+}
+
+.imagem-banner img {
+  display: flex;
+  border: solid 5px #efefef;
+  width: 300px;
+}
+
+.workoutCards {
+  background-color: #fff;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.corranking {
+  background-color: #4a7b9d;
+}
+
+.container-ranking {
+  padding: 40px;
+}
+
+.ranking {
+  display: flex;
+  font-family: Oswald;
+  font-size: 30px;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.ranking li {
+  color: #faffd8;
+  padding: 10px;
+}
+
+.podio {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Oswald;
+}
+
+.prata {
+  background-color: silver;
+  padding: 100;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 45px;
+  margin-left: 5px;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 0px 4px 0px #000;
+}
+
+.bronze {
+  background-color: #cd7f32;
+  padding: 100;
+  margin-top: 40;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  margin-left: 5px;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 0px 4px 0px #000;
+}
+
+.ouro {
+  background-color: #ffd700;
+  padding: 100;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 5px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 0px 4px 0px #000;
+}
+
+.ouro i,
+.prata i,
+.bronze i {
+  font-size: 30px;
+}
+
+.tabcontent {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+.treinos {
+  display: flex;
+  text-align: center;
+  background-color: #9aa899;
+  padding: 50px;
+}
+
+.card-icon {
+  padding: 1em;
+  color: #cd7f32;
+}
+
+.card-exercicio {
+  display: flex;
+  background-color: #ecffb0;
+  box-shadow: 2px 2px 0px #aaa;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  padding: 20px;
+}
+
+.minhaEstrela {
+  font-size: 60px;
+}
+
+.card-text button {
+  background-color: #54577c;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.treinosAntigos {
+  background-color: #4a7b9d;
+}
+
+.generoExercicio {
+  color: #4a7b9d;
+  margin: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  background-color: RGBA(245, 255, 216, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.detalhesExercicio {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 15px;
+  font-size: 25px;
+}
+
+.TreinoAntigo {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+}
+
+.card-treinoAntigo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-treinoAntigo a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.imgTreinoAntigo {
+  margin: 10px;
+  width: 500px;
+}
+
+.posicaoRanking {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.suaPosicaoNoRanking {
+  background-color: #4a7b9d;
+}
+
+.position {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  background-color: RGBA(222, 184, 135, 0.5);
+  border-radius: 10px;
+}
+
+.positionHighlight {
+  background-color: #66e49b;
+}
+
+.exercicio {
+  margin: 20px;
+  padding: 20px;
+  gap: 10px;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  background-color: #9aa899;
+  display: flex;
+  text-emphasis: center;
+}
+
+.textoCadrastado {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+}
+
+.cadastro-form-section {
+  background-color: #9aa899;
+}
+
+.cadastroForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  padding: 30px;
+  margin: 1px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #1C3F73;
+  padding: 20px;
+  color: white;
+}
+
+.footer-title{
+  font-size: 50px;
+  font-family: Righteous;
+  color: #faffd8;
+}
+
+.footer-informations{
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  font-family:Oswald;
+  gap: 20px;
+}
+
+.footer-informations h3{
+  font-weight: bold;
+}
+
+
+.copyright{
+  color: white;
+  text-align: center;
+  background-color: #1C3F73;
+  padding:5px;
+  font-family: Oswald;
+}
+
+
+@media (max-width: 720px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .header-title {
+    font-size: 40px;
+  }
+
+  .navbar a {
+    font-size: 18px;
+    background-color: #4a7b9d;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .navbar {
+    padding: 20px;
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-links {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-links a {
+    background-color: #ecffb0;
+    border-radius: 5px;
+    padding: 10px;
+    color: #54577c;
+    width: 100px;
+    justify-content: center;
+  }
+
+  .corbanner {
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 5px;
+  }
+
+  .texto-banner {
+    font-family: Josefin Sans;
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .podio {
+    flex-direction: column;
+  }
+
+  .prata {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 0px #000;
+    margin: 3px;
+  }
+
+  .bronze {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 0px #000;
+    margin: 3px;
+  }
+
+  .ouro {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0px 4px 0px #000;
+    margin: 3px;
+  }
+  .ranking {
+    font-size: 18px;
+  }
+
+  .imgTreinoAntigo {
+    margin: 10px;
+    width: 100%;
+    border: solid 3px white;
+    margin:0;
+  }
+
+  .TreinoAntigo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+  }
+
+  .detalhesExercicio {
+    flex-direction: column;
+    margin: 5px;
+    font-size: 20px;
+  }
+
+  .minhaEstrela {
+    font-size: 45px;
+  }
+  .imagem-banner img {
+    width: 250px;
+  }
+
+
+  .footer{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-title{
+    font-size: 40px;
+    color: #faffd8;
+  }
+  
+  .footer-informations{
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .footer-informations h3{
+    font-weight: bold;
+  }
+  
+
+}
+

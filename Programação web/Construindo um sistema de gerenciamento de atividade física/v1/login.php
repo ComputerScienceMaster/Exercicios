@@ -2,7 +2,7 @@
 
 <head>
     <?php require_once 'elements/head.php'; ?>
-    <title>Gabi sports</title>
+
 </head>
 
 
@@ -23,5 +23,9 @@
         </form>
     </section>
 </body>
+
+
+<?php require_once 'elements/footer.php'; ?>
+
 
 </html>

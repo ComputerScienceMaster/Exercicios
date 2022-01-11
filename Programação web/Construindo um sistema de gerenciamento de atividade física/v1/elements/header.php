@@ -4,6 +4,6 @@
     </div>
     <div class="header-links">
         <a href="login.php"> Login</a>
-        <a href="signup.php"> Cadastre-se</a>
+        <a href="signup.php"> Sign-up</a>
     </div>
 </header>
