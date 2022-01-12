@@ -1,11 +1,3 @@
-<?php
-session_start();
-
-if (!isset($_SESSION['username'])){
-    header("location: index.php");
-}
-
-?>
 
 
 <html>
@@ -21,24 +13,23 @@ if (!isset($_SESSION['username'])){
 
 <body>
 
-    <h2 class="titulo">Cadrastar: Treino 6</h2>
+    <h2 class="titulo">Register: Workout 6</h2>
 
 
-    <div class="exercisiosCadrastados">
-        <h3 class="textoCadrastado"> Exercisios Cadrastados </h3>
-        <div class="exercisio">
+    <div class="exerciciosCadastrados">
+        <div class="exercicio">
             <i style="color:red;" class="fas fa-circle"></i>
-            <o> Tipo: Hipertrofia | Tempo : 10 min | BPM: 100</p>
+            <o> Type: Hipertrophy | Time : 10 min | BPM: 100</p>
         </div>
 
-        <div class="exercisio">
+        <div class="exercicio">
             <i style="color:red;" class="fas fa-circle"></i>
-            Tipo: cardio | Nome: esteira | Tempo : 30 min | BPM: 110
+            Type: Cardio | Name: Treadmill | Time : 30 min | BPM: 110
         </div>
 
-        <div class="exercisio">
+        <div class="exercicio">
             <i style="color:red;" class="fas fa-circle"></i>
-            <o> Tipo: cardio | Nome: eliptico | Tempo : 30 min | BPM: 150 </p>
+            <o> Type: Cardio | Name: Eliptical | Time : 30 min | BPM: 150 </p>
         </div>
 
     </div>
@@ -97,5 +88,9 @@ if (!isset($_SESSION['username'])){
     </section>
 
 </body>
+
+
+<?php require_once 'elements/footer.php'; ?>
+
 
 </html>

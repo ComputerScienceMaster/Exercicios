@@ -2,7 +2,7 @@
 
 <head>
     <?php require_once 'elements/head.php'; ?>
-    <title>Gabi sports</title>
+
 </head>
 
 <?php require_once 'elements/header.php'; ?>
@@ -11,15 +11,15 @@
 <body>
 
     <section class="register-section">
-        <form class="form">
+        <form class="form" method="POST">
                 <label for="username">Username</label>
-                <input type="text" name="Username" placeholder="How about LooperSky?">
+                <input type="text" name="username" placeholder="How about LooperSky?">
                 <label for="password">Password</label>
-                <input type="password" name="Password" placeholder="Pick a strong one">
-                <label for="username">Name</label>
-                <input type="text" name="Name" placeholder="Be sincere...">
-                <label for="username">Email</label>
-                <input type="text" name="Email" placeholder="Your best mail">
+                <input type="password" name="password" placeholder="Pick a strong one">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Be sincere...">
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Your best mail">
          
             <input class="button" type="submit" value="Sing up">
 
@@ -28,5 +28,9 @@
     </section>
 
 </body>
+
+
+
+<?php require_once 'elements/footer.php'; ?>
 
 </html>

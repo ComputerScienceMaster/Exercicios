@@ -352,7 +352,7 @@ body {
     margin: 10px;
 }
 
-.detalesExercisio {
+.detalhesExercicio {
     display: flex;
     flex-direction: column;
     color: white;
@@ -361,7 +361,7 @@ body {
     font-size: 30px;
 }
 
-.generoExercisio {
+.generoExercicio {
     color: white;
     margin-top: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

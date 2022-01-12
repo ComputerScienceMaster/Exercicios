@@ -1,7 +1,4 @@
-<?php
-session_start();
 
-?>
 
 <html>
 
@@ -20,37 +17,43 @@ session_start();
 
     <div class="workoutCards">
         <div class="cartinha">
-            <img src="resources/images/image.jpeg">
+            <img src="resources/images/groupWorkout.jpg">
+        <a href='https://www.freepik.com/photos/love'>Love photo created by artursafronovvvv - www.freepik.com</a>
             <h2>Ab workout </h2>
             <p> Practice with our best abs workout </p>
         </div>
 
         <div class="cartinha">
-            <img src="resources/images/squat.jpeg">
+            <img src="resources/images/groupWorkout.jpg">
+        <a href='https://www.freepik.com/photos/love'>Love photo created by artursafronovvvv - www.freepik.com</a>
             <h2>Leg workout </h2>
             <p> Achieve your best shape </p>
         </div>
 
         <div class="cartinha">
-            <img src="resources/images/stretching.jpeg">
+            <img src="resources/images/womanWorkout.jpg">
+        <a href='https://www.freepik.com/photos/music'>Music photo created by serhii_bobyk - www.freepik.com</a>
             <h2>Streching </h2>
             <p> Stretch with good vibes </p>
         </div>
 
         <div class="cartinha">
-            <img src="resources/images/image.jpeg">
+            <img src="resources/images/womanWorkout.jpg">
+        <a href='https://www.freepik.com/photos/music'>Music photo created by serhii_bobyk - www.freepik.com</a>
             <h2>Burn Calories </h2>
             <p> Fat burning training </p>
         </div>
 
         <div class="cartinha">
-            <img src="resources/images/squat.jpeg">
+            <img src="resources/images/groupWorkout.jpg">
+        <a href='https://www.freepik.com/photos/love'>Love photo created by artursafronovvvv - www.freepik.com</a>
             <h2>Leg workout </h2>
             <p> Intense leg excercises </p>
         </div>
 
         <div class="cartinha">
-            <img src="resources/images/stretching.jpeg">
+            <img src="resources/images/womanWorkout.jpg">
+        <a href='https://www.freepik.com/photos/music'>Music photo created by serhii_bobyk - www.freepik.com</a>
             <h2>Yoga </h2>
             <p> Practice yoga and go beyond</p>
         </div>
@@ -63,7 +66,7 @@ session_start();
 
 
         <div class="imagem-banner">
-            <img src="resources/images/fitness.jpeg">
+            <img src="resources/images/gym-cut.jpg">
         </div>
 
         <div class="texto-banner">
@@ -117,5 +120,8 @@ session_start();
         </div>
 
 </body>
+
+
+<?php require_once 'elements/footer.php'; ?>
 
 </html>

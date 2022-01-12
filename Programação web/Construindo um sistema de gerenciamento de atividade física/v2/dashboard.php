@@ -1,13 +1,3 @@
-<?php
-
-session_start();
-
-if (!isset($_SESSION['username'])){
-    header("location: index.php");
-}
-
-?>
-
 <html>
 
 <head>
@@ -19,8 +9,8 @@ if (!isset($_SESSION['username'])){
     <?php require_once 'elements/header.php'; ?>
 
     <?php require_once 'elements/navbar.php'; ?>
-    
-    <h2 class="titulo"><?php echo $_SESSION['nome']; ?></h2>
+
+    <h2 class="titulo">Treinos Cadastrados</h2>
 
     <section class="treinos">
 
@@ -103,61 +93,74 @@ if (!isset($_SESSION['username'])){
 
         <div class="treinos-container">
 
-            <h3 class="generoExercisio"> Cardio </h3>
+            <h3 class="generoExercicio"> Cardio </h3>
 
             <div class=TreinoAntigo>
-                <img class="imgTreinoAntigo" src="resources/images/correndo.jpeg">
-                <div class="detalesExercisio">
-                    <p> Tempo/km 8 minutos </p>
-                    <p> Velocidade: 9km/hr </p>
-                    <p> inclinaçãoes 20graus </p>
-                    <p> batimentos caloricos: 145 </p>
-                    <p> Queima Calorica 400 </p>
+                <div class="card-treinoAntigo">
+                    <img class=" imgTreinoAntigo" src="resources/images/groupWorkout.jpg">
+                    <a href='https://www.freepik.com/photos/love'>Love photo created by artursafronovvvv - www.freepik.com</a>
+                </div>
+                <div class="detalhesExercicio">
+                    <p> Name: Treadmill Jogging </p>
+                    <p> Time/km: 8 minutes </p>
+                    <p> Speed: 9km/hr </p>
+                    <p> Angle: 20º </p>
+                    <p> BPM: 145 </p>
+                    <p> Kcal/burned: 400 </p>
                 </div>
             </div>
 
 
-            <h3 class="generoExercisio"> Hipertrofia </h3>
+            <h3 class="generoExercicio"> Hipertrophy </h3>
 
             <div class=TreinoAntigo>
-                <img class="imgTreinoAntigo" src="resources/images/correndo.jpeg">
-                <div class="detalesExercisio">
-                    <p> Tempo de treinamento: 60 min </p>
-                    <p> numero de exercisios: 6</p>
-                    <p> Numeros de series: 12 </p>
-                    <p> Queima Calorica 200 </p>
+                <div class="card-treinoAntigo">
+                <img class=" imgTreinoAntigo" src="resources/images/womanWorkout.jpg">
+                    <a href='https://www.freepik.com/photos/music'>Music photo created by serhii_bobyk - www.freepik.com</a>
+                </div>
+                <div class="detalhesExercicio">
+
+                    <p> Name: Leg-press </p>
+                    <p> Time: 15 min </p>
+                    <p> Repetitions: 12</p>
+                    <p> Series: 3 </p>
+                    <p> Load: 50 kg </p>
                 </div>
             </div>
         </div>
     </section>
     <section class="suaPosicaoNoRanking">
 
-        <h3 class="titulo"> Posição no Ranking </h3> 
-    
-        <div class="posicaoRanking"> 
-            <div class=position>
+        <h3 class="titulo"> Posição no Ranking </h3>
+
+        <div class="posicaoRanking">
+            <div class="position">
                 <p> 565° - Jonas </p>
             </div>
 
-            <div class=position>
-            <p> 566° - Ana Luisa </p>
+            <div class="position">
+                <p> 566° - Ana Luisa </p>
             </div>
 
-            <div class=position>
-            <p> 567° - Pedro </p>
+            <div class="position positionHighlight">
+                <p> 567° - Pedro </p>
             </div>
 
-            <div class=position>
-            <p> 568° - Maria </p>
+            <div class="position">
+                <p> 568° - Maria </p>
             </div>
 
-            <div class=position>
-            <p> 569° - João pedro </p>
+            <div class="position">
+                <p> 569° - João pedro </p>
 
             </div>
-             </div>
+        </div>
     </section>
 
 </body>
+
+
+
+<?php require_once 'elements/footer.php'; ?>
 
 </html>
