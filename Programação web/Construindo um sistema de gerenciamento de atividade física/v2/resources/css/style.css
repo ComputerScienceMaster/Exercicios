@@ -34,6 +34,8 @@
 .header-links {
   text-decoration: none;
   display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
 }
 
@@ -46,6 +48,11 @@
   padding: 1em;
   text-decoration: none;
   color: #54577c;
+}
+
+.welcomeMessage{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {

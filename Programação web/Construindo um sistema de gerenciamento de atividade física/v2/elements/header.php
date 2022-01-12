@@ -1,7 +1,7 @@
 <?php
 
-if (isset($_SESSION ['username'])) {
 
+if (isset($_SESSION ['username'])) {
 ?>
 
 <header class="header">
@@ -9,9 +9,9 @@ if (isset($_SESSION ['username'])) {
         Extreme Sports
     </div>
     <div class="header-links">
-        <div class="welcomeMessage"> Hello, <?php echo $_SESSION ['nome'];?> </div>
+        <div class="welcomeMessage"> Hello, <?php echo $_SESSION ['fullName'];?> </div>
         <a href="profile.php"> Profile</a>
-        <a href="logout.php"> Signout</a>
+        <a href="logout.php"> Sign out</a>
     </div>
 </header>
 
@@ -23,7 +23,7 @@ if (isset($_SESSION ['username'])) {
     </div>
     <div class="header-links">
         <a href="login.php"> Login</a>
-        <a href="signup.php"> Cadastre-se</a>
+        <a href="signup.php"> Sign Up</a>
     </div>
 </header>
 

@@ -1,10 +1,16 @@
 
+<?php
+
+require_once 'functions/security.php';
+
+?>
+
 
 <html>
 
 <head>
     <?php require_once 'elements/head.php'; ?>
-    <title>Gabi sports</title>
+    
 </head>
 
 <?php require_once 'elements/header.php'; ?>

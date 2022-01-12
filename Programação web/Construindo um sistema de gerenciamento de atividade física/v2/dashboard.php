@@ -1,3 +1,11 @@
+<?php
+
+require_once 'functions/security.php';
+
+
+?>
+
+
 <html>
 
 <head>

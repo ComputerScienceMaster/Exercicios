@@ -33,7 +33,7 @@ O projeto "V1" possui as seguintes características:
 
 ## Versão 2 - Adicionando banco de dados e a funcionalidade de login e senha
 
-Nessa versão do projeto você encontra a modelagem de um banco de dados relacional que satisfaz as necessidades de negócio do sistema (até o momento) para criação da funcionalidade de login e senha. Para facilitar a replicação, adicionamos o script SQL dentro da pasta "v3/data/banco.sql", assim, você poderá executar esse script e ter toda a estrutura do banco de dados pronta em sua máquina local.
+Nessa versão do projeto você encontra a modelagem de um banco de dados relacional que satisfaz as necessidades de negócio do sistema (até o momento) para criação da funcionalidade de login e senha. Para facilitar a replicação, adicionamos o script SQL dentro da pasta "v2/data/banco.sql", assim, você poderá executar esse script e ter toda a estrutura do banco de dados pronta em sua máquina local.
 
 Alguns pontos importantes sobre o banco de dados:
 - Estamos usando o MySQL versão 5.6
