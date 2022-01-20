@@ -50,9 +50,12 @@
   color: #54577c;
 }
 
-.welcomeMessage{
+.welcome {
+  font-size: 20px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin-top: 13px;
+  display: flex;
 }
 
 .navbar {
@@ -395,6 +398,18 @@
 .cadastro-form-section {
   background-color: #9aa899;
 }
+
+.form-button {
+  display: flex;
+  background-color: #ecffb0;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(141, 130, 130);
+  padding: 1em;
+  text-decoration: none;
+  color: #54577c;
+}
+
 
 .cadastroForm {
   display: flex;

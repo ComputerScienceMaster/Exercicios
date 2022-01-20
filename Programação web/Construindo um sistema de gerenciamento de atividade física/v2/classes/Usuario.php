@@ -30,27 +30,29 @@ class Usuario
 
     public function atualizar()
     {
-        $stringSalvar = "UPDATE Usuario SET username =  '$this->username', password = '$this->senha', name = '$this->fullName', email = '$this->email' where id = '$this->id' ";
+        $stringSalvar = "UPDATE Usuario SET senha = '$this->senha', fullName = '$this->fullName', email = '$this->email' where username =  '$this->username' ";
         Connect::getConnection()->query($stringSalvar);
     }
 
     public function deletar()
     {
-        $stringDelete = "DELETE from Usuario WHERE username = " . $this->username;
+        $stringDelete = "DELETE from Usuario WHERE username = '" . $this->username . "'";
+        echo($stringDelete);
+        Connect::getConnection()->query($stringDelete);
     }
 
-    public function buscarPorUsername($username)
+    public function buscarPorUsername()
     {
         $sqlBuscar = "SELECT * FROM Usuario WHERE username = '$this->username'";
         $rs = Connect::getConnection()->query($sqlBuscar);
-
-        if ($rs) {
+        if ($rs->num_rows) {
             $row = mysqli_fetch_row($rs);
             $u = new Usuario();
             $u->username = $row[0];
             $u->senha = $row[1];
             $u->fullName = $row[2];
             $u->email = $row[3];
+  
             return $u;
         } else {
             return false;
