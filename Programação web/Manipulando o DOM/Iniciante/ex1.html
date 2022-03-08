@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex1 - iniciante</title>
+</head>
+<body>
+    <input id="numero" placeholder="Digite um número" onkeyup="mostrarTabuada()">
+    <div id="resultado"></div>
+
+    <script>
+        function mostrarTabuada(){
+            console.log("entrei");
+            var numero = document.querySelector("#numero");
+            var resultado = document.querySelector("#resultado");
+            resultado.innerText = "";
+            for (var i = 0 ; i <= 10 ; i++){
+                var div = document.createElement("div");
+                div.innerText = numero.value* i;
+                resultado.appendChild(div);
+            }
+
+        }
+
+    </script>
+</body>
+</html>
