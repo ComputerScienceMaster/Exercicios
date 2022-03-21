@@ -40,7 +40,7 @@ Todos os exercícios e conteúdo disponibilizado no site estão sob a licença C
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-O código está distribuido sob a licença Apache 2.0. Isso significa que você pode reutilizar esse código, aprender com ele, adaptá-lo e também redistribuí-lo, mas fique atento, você precisa adicionar uma referência ao nosso repositório ou então ao nosso website.
+O código desse repositório estão todos distribuido sob a licença Apache 2.0. Isso significa que você pode reutilizar esse código, aprender com ele, adaptá-lo e também redistribuí-lo, mas fique atento, você precisa adicionar uma referência ao nosso repositório ou então ao nosso website.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
