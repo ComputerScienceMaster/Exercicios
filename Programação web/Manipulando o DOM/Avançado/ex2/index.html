@@ -1,0 +1,25 @@
+
+
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <link rel="stylesheet" href="style.css" />
+      <script src="ex2.js"></script>
+    </head>
+
+    <body>
+    <div id="ex2"></div>
+
+    <script>
+      var app = { };
+      app.getComponente = function (nome){
+      if( !app[nome]) {
+      app[nome] = { $ctrl:{} };
+    }
+    return app[nome];
+  };
+  </script>
+  
+</body>
+</html>
