@@ -19,18 +19,19 @@ function SomenteNumero(e){
 }
 
 function criarArray(){
+	let ex4 = document.querySelector("#ex4");
+
 	let qtd = Number(document.getElementById('qtd').value);
 	let minimo = Number(document.getElementById('min').value);
 	let maximo = Number(document.getElementById('max').value);
 
-	alert(minimo + maximo);
 	let arr = []
 	for(let i = minimo; i < qtd; i++){
 		arr.push(getNumero(minimo,maximo))
 	}
 
 	ordenar(arr)
-	alert(arr)
+	ex4.innerHTML = arr
 
 }
 
